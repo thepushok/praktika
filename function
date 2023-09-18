@@ -1,9 +1,0 @@
-int Proizv(vector<int>a,int n) 
-{ 
- int proiz = 1; 
- for (int i = 0;i < n;i++) 
- { 
-  proiz *= a[i]; 
- } 
- return proiz; 
-} 
